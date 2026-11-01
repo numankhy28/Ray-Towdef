@@ -1,0 +1,9 @@
+{
+    "enemypaths":[  
+        "assets/enemyinfo/archer.json",
+        "assets/enemyinfo/lancer.json"
+       
+    ],
+    "temp":  ""
+}
+

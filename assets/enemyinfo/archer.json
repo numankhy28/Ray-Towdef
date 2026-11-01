@@ -1,0 +1,38 @@
+{
+    "unit": "Archer",
+    "movespeed": 3.00,
+    "attackspeed": 1.5,
+    "maxhealth": 80.0,
+    "damage": 5.0,
+    "path":"assets/sprites/spritesheets/ArcherSheet.png",
+    "spawnweight" : 40,
+    "animations": [
+        {
+            "animname": "Idle",
+            "framecount": 6,
+            "frametime": 4,
+            "isloop": true,
+            "framestarty" : 192,
+            "framewidth" : 192,
+            "frameheight": 192
+        },
+        {
+            "animname": "Run",
+            "framecount": 4,
+            "frametime": 4,
+            "isloop": true,
+            "framestarty" : 384,
+            "framewidth" : 192,
+            "frameheight": 192
+        },              
+        {
+            "animname": "Attack",
+            "framecount": 8,
+            "frametime": 4,
+            "isloop": false,
+            "framestarty" : 0,
+            "framewidth" : 192,
+            "frameheight": 192,
+            "hitframes" : 6
+        }]
+}

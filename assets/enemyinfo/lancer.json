@@ -1,0 +1,38 @@
+{
+    "unit": "Lancer",
+    "movespeed": 2.5,
+    "attackspeed": 1.3,
+    "maxhealth": 110.0,
+    "damage": 6.0,
+    "path":"assets/sprites/spritesheets/LancerSheet.png",
+    "spawnweight" : 40,
+    "animations": [
+        {
+            "animname": "Idle",
+            "framecount": 6,
+            "frametime": 4,
+            "isloop": true,
+            "framestarty" : 320,
+            "framewidth" : 320,
+            "frameheight": 320
+        },
+        {
+            "animname": "Run",
+            "framecount": 6,
+            "frametime": 4,
+            "isloop": true,
+            "framestarty" : 640,
+            "framewidth" : 320,
+            "frameheight": 320
+        },
+        {
+            "animname": "Attack",
+            "framecount": 6,
+            "frametime": 4,
+            "isloop": false,
+            "framestarty" : 0,
+            "framewidth" : 320,
+            "frameheight": 320,
+            "hitframes": [4,5]
+        }]
+}
